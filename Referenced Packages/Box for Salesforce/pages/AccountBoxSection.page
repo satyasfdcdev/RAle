@@ -4,6 +4,8 @@ Page Name: AccountBoxSection
  Description: This page is to display DisplayBoxWidget for Account
  ************************************************************** -->
 
+ <!-- Added by Ramesh Ale -->
+
 <apex:page standardController="Account" extensions="box.DisplayWidget" showHeader="false" sidebar="false" action="{!getLoginToken}" standardStylesheets="false">
        <apex:pageMessages />
           <apex:stylesheet value="{!URLFOR($Resource.box__BoxEmbed, 'BoxEmbed/style.css')}"/>
