@@ -5,6 +5,8 @@ Page Name: AccountBoxSection
  ************************************************************** -->
 
  <!-- Added by Ramesh Ale -->
+ 
+ <!-- Added by Sai -->
 
 <apex:page standardController="Account" extensions="box.DisplayWidget" showHeader="false" sidebar="false" action="{!getLoginToken}" standardStylesheets="false">
        <apex:pageMessages />
